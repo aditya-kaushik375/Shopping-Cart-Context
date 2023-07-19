@@ -1,0 +1,44 @@
+.filters {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 15vw;
+  height: 70vh;
+  padding: 1rem;
+}
+
+.clear-filter-btn {
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(223, 61, 88), rgb(226, 162, 43));
+  color: #fff;
+  font-weight: 500;
+  padding: 5px;
+  margin-top: 1rem;
+  width: 100px;
+  cursor: pointer;
+}
+
+.filter-title {
+  font-size: 1.2rem;
+  word-spacing: 1px;
+  font-weight: 600;
+}
+@media screen and (max-width: 800px) {
+  .filters {
+    flex-direction: row;
+    height: 25vh;
+    width: 98vw;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .clear-filter-btn {
+    display: block;
+    width: 90vw;
+  }
+  span {
+    margin: 7px;
+  }
+}

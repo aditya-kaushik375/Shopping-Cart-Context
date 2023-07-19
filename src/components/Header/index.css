@@ -1,0 +1,21 @@
+.nav-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-search {
+  width: 35%;
+  padding: 5px;
+}
+
+.cart-length {
+  margin-left: 3px;
+  font-weight: bold;
+  font-size: 18px;
+}

@@ -1,0 +1,17 @@
+.home-container {
+  display: flex;
+  margin: 1rem auto;
+}
+.home-product-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+@media screen and (max-width: 800px) {
+  .home-container {
+    flex-direction: column;
+  }
+  .home-product-container {
+    width: 90%;
+  }
+}

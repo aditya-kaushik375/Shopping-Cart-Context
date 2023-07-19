@@ -1,0 +1,14 @@
+.header-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.go-to-cart-btn {
+  background-color: brown;
+  color: aliceblue;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
